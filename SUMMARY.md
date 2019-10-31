@@ -10,3 +10,7 @@
 
 * [General Node Project](setup/node-project-setup.md)
 
+## Docs
+
+* [Index Signatures](docs/index-signatures.md)
+
