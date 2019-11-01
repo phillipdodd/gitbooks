@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Splash Page](README.md)
-* [Untitled](untitled.md)
+* [Ideas](untitled.md)
 
 ## Project Structures
 
@@ -14,4 +14,8 @@
 ## Docs
 
 * [Index Signatures](docs/index-signatures.md)
+
+## Components
+
+* [Lifecycle hooks](components/lifecycle-hooks.md)
 
