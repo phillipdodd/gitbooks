@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Splash Page](README.md)
-* [Ideas](untitled.md)
+* [Ideas](ideas.md)
 
 ## Project Structures
 
