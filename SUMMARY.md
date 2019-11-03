@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Splash Page](README.md)
+* [Resources](resources.md)
 
 ## Project Structures
 
@@ -13,4 +14,5 @@
 ## Docs
 
 * [Index Signatures](docs/index-signatures.md)
+* [Grammar](docs/untitled.md)
 
