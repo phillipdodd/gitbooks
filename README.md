@@ -6,6 +6,8 @@
 
 {% page-ref page="docs/classes.md" %}
 
+{% page-ref page="docs/modules.md" %}
+
 ## Things to Look Up
 
 {% embed url="https://www.typescriptlang.org/docs/handbook/advanced-types.html" %}
