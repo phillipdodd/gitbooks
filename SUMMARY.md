@@ -19,8 +19,10 @@
 * [Grammar](docs/grammar.md)
 * [Classes](docs/classes.md)
 * [Casting Types](docs/casting-types.md)
+* [Modules](docs/modules.md)
 
 ## Reference
 
 * [Interfaces](reference/interfaces.md)
+* [Modules](reference/modules.md)
 
