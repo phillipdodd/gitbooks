@@ -26,6 +26,14 @@ namespace Shapes {
 let myRectangle = new Shapes.Rectangle(2,4);
 ```
 
+### Internal Interfaces
+
+**Interfaces** are also able to be declared within **modules** in the same way that **classes** are.
+
+{% hint style="info" %}
+**Note:** These will be scoped to the module itself and unavailable outside of it.
+{% endhint %}
+
 ### Extending Modules
 
 Modules can be extended simply by adding things to it later in the code:
