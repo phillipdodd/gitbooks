@@ -12,7 +12,7 @@ description: My personal style guide
 {% tab title="With \'Interface\'" %}
 ```typescript
 interface AddTwoInterface {
-    (a: number, b:number): number;
+    (a: number, b: number): number;
 }
 
 function addTwo(a, b): AddTwoInterface {
