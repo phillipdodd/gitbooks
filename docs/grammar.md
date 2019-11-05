@@ -43,13 +43,13 @@ What is _really_ happening is that we are creating an **interface** with the fir
 
 ```typescript
 interface IAddTwoInterface {
-    (a: number, b:number): number;
+    (a: number, b: number): number;
 }
 
 const addTwo: IAddTwoInterface = (a, b) => a + b;
 
 //* Or...
-function addTwo(a, b): AddTwoInterface {
+function addTwo(a, b): IAddTwoInterface {
     return a + b;
 }
 ```
