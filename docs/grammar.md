@@ -42,11 +42,11 @@ _Then_ we define the function itself in a way one might do in regular JS.
 What is _really_ happening is that we are creating an **interface** with the first expression. To write it more explicitly, it would be:
 
 ```typescript
-interface AddTwoInterface {
+interface IAddTwoInterface {
     (a: number, b:number): number;
 }
 
-const addTwo: AddTwoInterface = (a, b) => a + b;
+const addTwo: IAddTwoInterface = (a, b) => a + b;
 
 //* Or...
 function addTwo(a, b): AddTwoInterface {
