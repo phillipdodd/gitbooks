@@ -30,8 +30,8 @@ npm install --save-dev @types/jquery
  Based on this `tsconfig.json` file, the TypeScript compiler will \(attempt to\) compile any files ending with `.ts` it finds in the `src` folder, and store the results in a folder named `dist`. Node.js uses the CommonJS module system, so the value for the `module` setting is `commonjs`. Also, the target version of JavaScript is ES6 \(ES2015\), which is compatible with modern versions of Node.js.
 {% endhint %}
 
-{% code-tabs %}
-{% code-tabs-item title="tsconfig.json" %}
+{% tabs %}
+{% tab title="tsconfig.json" %}
 ```javascript
 {
     "compilerOptions": {
@@ -54,8 +54,8 @@ npm install --save-dev @types/jquery
     ]
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Initialize ESLint Settings
 
@@ -80,8 +80,8 @@ The value of **eslint:recommended** in the **extends** property contains most co
 **NPM Scripts** can be **chained together** **using the `pre` and `post` prefixes**. For example, if you have one script labeled `start` and another labeled `prestart`, executing `npm run start` at the terminal will first run `prestart`, and only after it successfully finishes does `start` run.
 {% endhint %}
 
-{% code-tabs %}
-{% code-tabs-item title="package.json" %}
+{% tabs %}
+{% tab title="package.json" %}
 ```javascript
 // ...
 "scripts": {
@@ -93,6 +93,6 @@ The value of **eslint:recommended** in the **extends** property contains most co
   }
   // ...
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 

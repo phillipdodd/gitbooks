@@ -10,7 +10,7 @@ description: My personal style guide
 
 {% tabs %}
 {% tab title="With \'Interface\'" %}
-```typescript
+```
 interface AddTwoInterface {
     (a: number, b: number): number;
 }
@@ -22,7 +22,7 @@ function addTwo(a, b): AddTwoInterface {
 {% endtab %}
 
 {% tab title="Without \'Interface\'" %}
-```typescript
+```
 let addTwo: (a: number, b: number) => number;
 
 addTwo = function (a, b) { 
@@ -38,7 +38,7 @@ addTwo = function (a, b) {
 
 * Interfaces **names** must begin with the letter **I.**
 
-```typescript
+```
 interface IDog {
     public breed: string;
     public name?: string;
@@ -79,7 +79,7 @@ class Dog implements IDog {
 
 {% tabs %}
 {% tab title="Good" %}
-```typescript
+```
 class Rectangle implements IRectangle {
 
     constructor(
@@ -95,7 +95,7 @@ class Rectangle implements IRectangle {
 {% endtab %}
 
 {% tab title="Bad" %}
-```typescript
+```
 class Rectangle implements IRectangle {
 
     height: number;
@@ -121,7 +121,7 @@ class Rectangle implements IRectangle {
 
 {% tabs %}
 {% tab title="Good" %}
-```typescript
+```
 namespace Shapes {
     export class Rectangle {
         public height: number;
@@ -140,7 +140,7 @@ let myCircle = new Shapes.Circle(20);
 {% endtab %}
 
 {% tab title="Bad" %}
-```typescript
+```
 namespace Shapes {
     export class Rectangle {
         public height: number;

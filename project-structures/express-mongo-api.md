@@ -29,8 +29,8 @@ From [https://github.com/Microsoft/TypeScript-Node-Starter](https://github.com/M
 
 **\*copyStaticAssets.ts** appears to use [shelljs](https://github.com/shelljs/shelljs) to copy the static files over via:
 
-{% code-tabs %}
-{% code-tabs-item title="copyStaticAsset.ts" %}
+{% tabs %}
+{% tab title="copyStaticAsset.ts" %}
 ```typescript
 import * as shell from "shelljs";
 
@@ -38,6 +38,6 @@ shell.cp("-R", "src/public/js/lib", "dist/public/js/");
 shell.cp("-R", "src/public/fonts", "dist/public/");
 shell.cp("-R", "src/public/images", "dist/public/");
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
