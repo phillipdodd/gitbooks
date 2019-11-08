@@ -6,11 +6,12 @@ description: My personal style guide
 
 ## Functions
 
-* All functions must be written using an **annotation before declaration** approach. This can be done in either of the two methods:
+* Avoid using arrow functions when defining functions.
+* All functions must be written be written with **explicitly typed parameters**:
 
 {% tabs %}
 {% tab title="With \'Interface\'" %}
-```
+```typescript
 interface AddTwoInterface {
     (a: number, b: number): number;
 }
@@ -22,7 +23,7 @@ function addTwo(a, b): AddTwoInterface {
 {% endtab %}
 
 {% tab title="Without \'Interface\'" %}
-```
+```typescript
 let addTwo: (a: number, b: number) => number;
 
 addTwo = function (a, b) { 
@@ -32,7 +33,11 @@ addTwo = function (a, b) {
 {% endtab %}
 {% endtabs %}
 
-* Avoid using arrow functions when defining functions. \(Excludes the arrow-function-like syntax of the 'without interface' approach of annotation\)
+```typescript
+function addTwo(a: number, b: number): number {
+    return a + b;
+}
+```
 
 ## Interfaces
 
