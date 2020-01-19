@@ -49,7 +49,10 @@ npm install --save-dev @types/jquery
         }
     },
     "include": [
-        "src/**/*"
+        "src/**/*",
+    ],
+    "exclude": [
+        "node_modules",
     ]
 }
 ```
